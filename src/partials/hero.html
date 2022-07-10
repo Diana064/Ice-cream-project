@@ -1,0 +1,82 @@
+<!-- hero -->
+<section class="hero" id="hero">
+    <div class="container hero-position">
+        <div class="hero-burg">
+            <picture>
+                <source media="(min-width: 1200px)" srcset="
+                                        ./images/hero/icecream_lg.png 1x,
+                                        ./images/hero/icecream_lg@2x.png 2x
+                                        " type="image/png" />
+                <source media="(min-width: 768px)" srcset="
+                                         ./images/hero/icecream_md.png 1x,
+                                        ./images/hero/icecream_md@2x.png 2x
+                                        " type="image/png" />
+                <source media="(max-width: 767px)" srcset="
+                                        ./images/hero/icecream_sm.png 1x,
+                                        ./images/hero/icecream_sm@2x.png 2x
+                                        " type="image/png" />
+                <img class="hero-image" src="./images/hero/icecream_sm.png" alt="icecream" width="171" height="410" />
+            </picture>
+
+        </div>
+
+        <picture>
+            <source media="(min-width: 1200px)" srcset="
+                                                ./images/hero/girl_lg.png 1x,
+                                                ./images/hero/girl_lg@2x.png 2x
+                                                " type="image/png" />
+            <source media="(min-width: 768px)" srcset="
+                                                ./images/hero/girl_md.png 1x,
+                                                ./images/hero/girl_md@2x.png 2x
+                                                " type="image/png" />
+            <img class="image-tasty" src="./images/hero/girl_md.png" alt="girl it icecream" loading="lazy" width="190"
+                height="150" />
+        </picture>
+        <picture>
+            <source media="(min-width: 1200px)" srcset="
+                                                ./images/hero/milk_lg.png 1x,
+                                                ./images/hero/milk_lg@2x.png 2x
+                                                " type="image/png" />
+            <source media="(min-width: 768px)" srcset="
+                                                ./images/hero/milk_md.png 1x,
+                                                ./images/hero/milk_md@2x.png 2x
+                                                " type="image/png" />
+            <img class="image-cup" src="./images/hero/milk_md.png" alt="cup of milk" loading="lazy" width="152"
+                height="154" />
+        </picture>
+
+
+        <div class="hero-box">
+            <h1 class="hero-title">
+                ice cream made with
+                <span class="hero-title__text">passion</span>
+            </h1>
+            <ul class="number-list">
+                <li class="number-list__item">
+                    <p class="number-list__desc"><span class="number-list__achive ">16</span>cafes</p>
+                </li>
+                <li class="number-list__item">
+                    <p class="number-list__desc"><span class="number-list__achive">23</span>food trucks</p>
+
+                </li>
+            </ul>
+        </div>
+        <ul class="hero-list">
+            <li class="hero-list__item">
+                <a href="#products" class="link hero-btn hero-btn--dark">Products</a>
+            </li>
+            <li class="hero-list__item">
+                <a href="#about" class="link hero-btn hero-btn--white">How it’s made?</a>
+            </li>
+        </ul>
+        <p class="hero__indenture">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+        </p>
+        <a href="#about" class="hero-link">
+            <svg class="hero-svg" width="8px" height="8px">
+                <use href="./images/icon/icon-sprite.svg#icon-right-arrow">
+            </svg>
+        </a>
+    </div>
+</section>
